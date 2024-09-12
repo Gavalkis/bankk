@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <header>
+  <header style="background-color: azure;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -65,10 +65,14 @@
   </header>
 
   <main>
-    <div>
+    <div class="flex" style="min-height: 100svh; background-color: #fff;">
       
     </div>
   </main>
+
+  <footer style="min-height: 100svh; background-color: #333;">
+
+  </footer>
 </template>
 
 <style scoped></style>
